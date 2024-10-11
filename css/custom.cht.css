@@ -1,0 +1,75 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Bold.ttf);
+  }
+
+* {
+    font-family: roboto;
+}
+
+  body,
+        html {
+            padding-top: 0.50rem;
+            background: #f9f9f9;
+            font-size: 12px;
+        }
+
+        .container-lg {
+            max-width: 375px;
+            margin: auto;
+        }
+
+        p {
+            font-size: 10px;
+            padding-top: 10px;
+        }
+
+        .speler {
+            width: 33%;
+        }
+
+        .rugnummer {
+            color: #000;
+            letter-spacing: 0px;
+            text-align: center;
+            font-size: 40px;
+            padding: 15px 0;
+            display: block;
+            background: #fff;
+            border-radius: 50px;
+        }
+
+        .totaal {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            background: #fff;
+        }
+
+        .bg-info {
+            background-color: #ED1C24 !important;
+        }
+
+        .bg-groen {
+            background-color: #4bbf73 !important;
+            color: #fff;
+        }
+
+        .bg-rood {
+            background-color: #ED1C24 !important;
+            color: #fff;
+        }
+
+        .sp-message-open {
+            margin-top: 0px !important;
+            overflow: hidden !important;
+            left: 0 !important;
+            right: 0 !important;
+            top: 0 !important;
+            bottom: 0 !important;
+            position: fixed !important;
+            background-color: #f9f9f9;
+        }
